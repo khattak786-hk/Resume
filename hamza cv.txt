@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<h4>DevOps Pipeline Demo</h4>
+<div class="sub">CI workflow using GitHub Actions for a simple web app with build/test steps and branch protection rules.</div>
+<ul class="clean">
+<li>Automated checks on pull requests; enforced code review before merge.</li>
+<li>Added status badges and release notes.</li>
+</ul>
+</div>
+<div class="item">
+<h4>Port 80 Checker & Unblock Guide</h4>
+<div class="sub">Wrote a Windows networking troubleshooting guide with commands for checking and freeing ports.</div>
+<ul class="clean">
+<li>Commands covered: <code>netstat -ano</code>, <code>taskkill</code>, <code>sc config</code>, and firewall rules.</li>
+</ul>
+</div>
+</section>
+
+
+<section class="section card">
+<h3>Awards & Activities</h3>
+<ul class="clean">
+<li>Participated in hackathon-style university coding challenges.</li>
+<li>Active learner: C programming exercises, OSI model labs, and troubleshooting tasks.</li>
+<li>Preparing for competitive exams (CSS/PMS) while enhancing technical skills.</li>
+</ul>
+</section>
+
+
+<section class="section card">
+<h3>Interests</h3>
+<div class="row">
+<span class="pill">Backend Development</span>
+<span class="pill">Cloud & DevOps</span>
+<span class="pill">Computer Networking</span>
+<span class="pill">System Design</span>
+</div>
+</section>
+</section>
+</main>
+
+
+<footer class="card" style="margin-top:24px">
+<div class="sub">References available upon request · Last updated: <span id="today"></span></div>
+</footer>
+</div>
+
+
+<!-- Structured Data for better search/ATS parsing -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Person",
+"name": "Hamza Sajjad",
+"jobTitle": "Software Engineer",
+"email": "hamza.sajjad@example.com",
+"telephone": "+92-XXX-XXXXXXX",
+"url": "https://github.com/hamzasajjad",
+"address": {
+"@type": "PostalAddress",
+"addressCountry": "PK",
+"addressLocality": "Peshawar/Islamabad"
+},
+"alumniOf": {
+"@type": "CollegeOrUniversity",
+"name": "National University of Modern Languages (NUML)"
+},
+"knowsAbout": [
+"C programming", "Git", "GitHub", "Docker", "Linux", "Virtualization", "Networking", "DevOps"
+]
+}
+</script>
+<script>
+document.getElementById('today').textContent = new Date().toLocaleDateString();
+</script>
+</body>
+</html>
